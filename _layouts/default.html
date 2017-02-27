@@ -14,12 +14,22 @@ layout: compress
 
       <div class="masthead">
         <div class="container">
-          <h2 class="masthead-title">
-            <a href="/" title="Home">{{ site.title }}</a>
-            {% if site.author.display_bio %}
-            <small>{% include bio.html %}</small>
-            {% endif %}
-          </h2>
+          <div class="row">
+            <div class="col-md-10 col-xs-8">
+              <h2 class="masthead-title">
+                <a href="/" title="Home">{{ site.title }}</a>
+                {% if site.author.display_bio %}
+                <small>{% include bio.html %}</small>
+                {% endif %}
+              </h2>
+            </div>
+            <div class="col-md-2 col-xs-4 text-right">
+                <h1></h1>
+                <img src='{{ "/assets/logo.png" | prepend: site.baseurl }}'
+                   class="img-thumbnail img-responsive" alt="Aditya Bharadwaj" style="margin: 0; width: 80%">
+            </div>
+          </div>
+
 
           {% if site.display_social_icons %}
             {% include social_links.html %}
