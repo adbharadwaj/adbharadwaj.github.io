@@ -1,0 +1,56 @@
+/* Print Styles */
+@media print {
+  @page {
+    margin: 1in;
+  }
+  body {
+    font-family: Georgia, serif;
+    background: none;
+    color: black;
+  }
+  .container, .footer {
+    width: 100%;
+    max-width: none;
+  }
+  .master-nav, .nav, .footer, .footer-social-links, .back {
+    display: none;
+  }
+  .hrline {
+    background: none;
+    height: 1px;
+    margin: 10px auto;
+  }
+  .page {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: none;
+  }
+  .post {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: none;
+    a {
+      border-bottom: 0;
+      &:after {
+        content: " [" attr(href) "] ";
+        font-size: 80%;
+      }
+    }
+  }
+  pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    code {
+      white-space: pre-wrap;
+      white-space: -moz-pre-wrap;
+      white-space: -pre-wrap;
+      white-space: -o-pre-wrap;
+      word-wrap: break-word;
+    }
+  }
+}

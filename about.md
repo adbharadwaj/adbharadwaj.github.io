@@ -1,0 +1,8 @@
+---
+layout: page
+title: About
+description: Little information about the human behind this site.
+keywords: about page, about me
+---
+
+I am a second year PhD student in the Department of Computer Science at Virginia Tech. Prior to joining Virginia Tech, I worked as a Software Engineer at PayPal from 2013 to 2015. I received my Bachelor of Technology degree in Computer Science from Birla Institute of Technology and Sciences, Pilani in 2013. My research interests involve Graph Algorithms, Computational Biology, Data Mining, Human Computer Interaction and Machine Learning. I like participating in hackathons and playing basketball.

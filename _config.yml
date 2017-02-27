@@ -1,0 +1,65 @@
+# SEO settings
+title: "my_website(adb)"
+description: "PhD Candidate - Department of Computer Science @ Virginia Tech"
+keywords: "aditya bharadwaj, web developer, data scientist, python developer, javascript developer, statistical
+programming, network science, machine learning, databases, computational biology, computer science, graduate student,
+ virginia tech"
+url: "https://adbharadwaj.github.io" # Site url (default: "")
+#baseurl: "" # Apply repo name if use it under gh-pages branch
+#baseurl: "https://adityabharadwaj.in" # Apply null if repo name is something like username.github.io
+
+# Site analytics
+# google_analytics: UA-5
+
+# Disqus
+disqus_shortname: adbharadwaj
+
+# Site author info
+author:
+  name: "Aditya Bharadwaj"
+  email: adb@vt.edu
+  nickname: "adb"
+  display_bio: true # Edit file in /_includes/bio.html
+  website: http://adbharadwaj.github.io
+
+# Social settings
+og_locale: "en_US"
+display_social_icons: true # Edit file in /_includes/social_links.html
+github:
+  username: adbharadwaj
+facebook:
+  profile_url: https://www.facebook.com/bharadwaj.adi
+twitter:
+  username: adbharadwaj
+
+# Build settings
+#source: ./
+#destination: ../adbharadwaj.github.io/
+source: ./
+destination: ./_site
+
+permalink: /:year/:title
+markdown: kramdown
+highlighter: rouge
+
+timezone: Asia/India
+
+exclude: ["README.md", "LICENSE.md", "CHANGELOG.md"]
+
+# Site configurations
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
+
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+gems:
+  - jekyll-sitemap
