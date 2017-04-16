@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Me
 description: Little information about the human behind this site.
 keywords: about page, about me
 ---
