@@ -1,8 +1,6 @@
 ---
 layout: default
-title: About Me
-description: Little information about the human behind this site.
-keywords: about page, about me
+title: Blogs
 ---
 
 {% assign rawtags = "" %}
@@ -24,7 +22,26 @@ keywords: about page, about me
 {% endif %}
 {% endfor %}
 
-I am a second year PhD student in the Department of Computer Science at Virginia Tech. Prior to joining Virginia Tech, I worked as a Software Engineer at PayPal from 2013 to 2015. I received my Bachelor of Technology degree in Computer Science from Birla Institute of Technology and Sciences, Pilani in 2013. My research interests involve Graph Algorithms, Computational Biology, Data Mining, Human Computer Interaction and Machine Learning. I like participating in hackathons and playing basketball.
+<div class="posts">
+    {% for post in site.posts %}
+    {% unless post.next %}
+    <h2 class="year">{{ post.date | date: '%Y' }}</h2>
+    {% else %}
+    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+    {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+    {% if year != nyear %}
+    <h2 class="year">{{ post.date | date: '%Y' }}</h2>
+    {% endif %}
+    {% endunless %}
+
+    <div class="post-list">
+        <div class="post-list-date"><small>{{ post.date | date: "%b %d" }}</small></div>
+        <div class="text-truncate"><a href="{{ post.url }}">{{ post.title }}</a></div>
+        <div class="post-list-desc">{{ post.description }}</div>
+    </div>
+
+    {% endfor %}
+</div>
 
 <hr/>
 
