@@ -7,9 +7,12 @@ layout: default
 
  Here is a list of my publications.
  
+ 1. <a href="https://doi.org/10.1093/bioinformatics/btx382">GraphSpace: Stimulating Interdisciplinary Collaborations in Network Biology</a>&nbsp;&nbsp;[<a href="http://www.graphspace.org">GraphSpace</a>] &nbsp;&nbsp;[<a href="https://github.com/Murali-group/GraphSpace/">Code</a>]<br>
+	**Aditya Bharadwaj**, Divit P. Singh, Anna Ritz, Allison N. Tegge, Christopher L. Poirel, Pavel Kraikivski, Neil Adames, Kurt Luther, Shiv D. Kale, Jean Peccoud, John J. Tyson, and T. M. Murali <br>
+	<em>Bioinformatics</em>, in press, 2017.
+
  1. <a href="https://doi.org/10.1093/nar/gkw1037">XTalkDB: A Database of Signaling Pathway Crosstalk</a>&nbsp;&nbsp;[<a href="http://www.xtalkdb.org">XTalkDB</a>]<br>
-		 Sarah Sam, Joelle Teel, Allison N. Tegge, **Aditya Bharadwaj**, and
-		 T. M. Murali<br>
+	Sarah Sam, Joelle Teel, Allison N. Tegge, **Aditya Bharadwaj**, and T. M. Murali<br>
 		 <em>Nucleic Acids Research</em>, 45 (D1), D432-D439, 2016.
      
  2. <a href="http://people.cs.vt.edu/~bijaya/papers/CondensingSDM2017.pdf">Condensing Temporal Networks using Propagation</a>&nbsp;&nbsp;[<a href="http://people.cs.vt.edu/~bijaya/codes/NetCondense.zip">Code</a>]<br>
