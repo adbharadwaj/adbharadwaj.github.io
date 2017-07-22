@@ -1,5 +1,5 @@
 # SEO settings
-title: "adb.website()"
+title: "adb.coder()"
 description: "PhD Candidate - Department of Computer Science @ Virginia Tech"
 keywords: "aditya bharadwaj, web developer, data scientist, python developer, javascript developer, statistical
 programming, network science, machine learning, databases, computational biology, computer science, graduate student,
@@ -28,9 +28,9 @@ display_social_icons: true # Edit file in /_includes/social_links.html
 github:
   username: adbharadwaj
 facebook:
-  profile_url: https://www.facebook.com/bharadwaj.adi
+  profile_url: https://www.facebook.com/adbcoder
 twitter:
-  username: adbharadwaj
+  username: adbcoder
 
 # Build settings
 #source: ./
