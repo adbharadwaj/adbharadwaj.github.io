@@ -10,12 +10,14 @@ The 25th conference on Intelligent Systems for Molecular Biology was held at [Pr
 
 <br><br>
 
-<a href="https://github.com/adbharadwaj/graphspace-bosc-2017><2017-07-22-ismb-bosc-graphspace-poster.pdf"><img src="https://github.com/adbharadwaj/graphspace-bosc-2017/blob/master/2017-07-22-ismb-bosc-graphspace-poster.jpgf"/></a>
+<a href="https://github.com/adbharadwaj/graphspace-bosc-2017/blob/master/2017-07-22-ismb-bosc-graphspace-poster.pdf">
+<img src="https://github.com/adbharadwaj/graphspace-bosc-2017/blob/master/2017-07-22-ismb-bosc-graphspace-poster.jpg"/>
+</a>
 
 
-**Project Website**: ![http://graphspace.org](http://graphspace.org)
+**Project Website**: [http://graphspace.org](http://graphspace.org)
 
-**Source Code**: ![https://github.com/Murali-group/GraphSpace](https://github.com/Murali-group/GraphSpace)
+**Source Code**: [https://github.com/Murali-group/GraphSpace](https://github.com/Murali-group/GraphSpace)
 
 **License**: GNU General Public License v3
 
@@ -43,5 +45,5 @@ them private) containing a total of over 1.4 million nodes and 3.8 million edges
 3. M. E. Smoot, K. Ono, J. Ruscheinski, P. L. Wang, and T. Ideker. Cytoscape 2.8: new features for data integration and network visualization. Bioinformatics, 27(3):431–432, Feb 2011.
 
 
-Please contact me at ![adb@vt.edu](adb@vt.edu) if you have any doubts.
+Please contact me at [adb@vt.edu](adb@vt.edu) if you have any doubts.
 
