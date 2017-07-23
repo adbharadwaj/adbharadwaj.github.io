@@ -4,7 +4,7 @@ description: "PhD Candidate - Department of Computer Science @ Virginia Tech"
 keywords: "aditya bharadwaj, web developer, data scientist, python developer, javascript developer, statistical
 programming, network science, machine learning, databases, computational biology, computer science, graduate student,
  virginia tech"
-url: "https://adbharadwaj.github.io" # Site url (default: "")
+url: "" # Site url (default: "")
 #baseurl: "" # Apply repo name if use it under gh-pages branch
 #baseurl: "https://adityabharadwaj.in" # Apply null if repo name is something like username.github.io
 
