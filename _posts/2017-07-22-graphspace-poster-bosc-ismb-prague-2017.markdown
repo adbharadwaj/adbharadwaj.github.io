@@ -11,7 +11,7 @@ The 25th conference on Intelligent Systems for Molecular Biology was held at [Pr
 <br><br>
 
 <a href="https://github.com/adbharadwaj/graphspace-bosc-2017/blob/master/2017-07-22-ismb-bosc-graphspace-poster.pdf">
-<img src="//github.com/adbharadwaj/graphspace-bosc-2017/blob/master/2017-07-22-ismb-bosc-graphspace-poster.jpg"/>
+<img src="https://github.com/adbharadwaj/graphspace-bosc-2017/raw/master/2017-07-22-ismb-bosc-graphspace-poster.jpg"/>
 </a>
 
 
