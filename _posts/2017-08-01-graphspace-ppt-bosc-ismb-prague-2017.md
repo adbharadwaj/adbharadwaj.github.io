@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Presented GraphSpace in Bioinformatic Open Source Conference (BOSC) at ISMB/ECCB 2017."
-date:   2017-08-07 13:59:39 -0500
+date:   2017-08-01 13:59:39 -0500
 categories: graphspace feeds
 tags: [GraphSpace,Presentation,ISMB,ECCB,BOSC,Open Source]
 ---
