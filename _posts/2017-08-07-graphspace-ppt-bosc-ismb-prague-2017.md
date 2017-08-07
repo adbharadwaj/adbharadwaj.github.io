@@ -8,8 +8,9 @@ tags: [GraphSpace,Presentation,ISMB,ECCB,BOSC,Open Source]
  
 I had the pleasure of presenting GraphSpace at 25th conference on Intelligent Systems for Molecular Biology held at [Prague, Czech Republic](https://www.iscb.org/ismbeccb2017). Here is the presentation that I presented. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/knaG9MLn6NA" frameborder="0" allowfullscreen></iframe>
 <br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/knaG9MLn6NA" frameborder="0" allowfullscreen></iframe>
+<br>
 
 You can also find the presentation slides [here](https://github.com/adbharadwaj/graphspace-bosc-2017/raw/master/2017-07-22-graphspace-bosc-ismb.pdf). I also presented a [poster](https://github.com/adbharadwaj/graphspace-bosc-2017/raw/master/2017-07-22-ismb-bosc-graphspace-poster.pdf). You can find the relevant post about the poster [here](2017-07-22-graphspace-poster-bosc-ismb-prague-2017).
 
