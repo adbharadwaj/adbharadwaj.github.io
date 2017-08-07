@@ -13,10 +13,6 @@ I had the pleasure of presenting GraphSpace at 25th conference on Intelligent Sy
 
 You can also find the presentation slides [here](https://github.com/adbharadwaj/graphspace-bosc-2017/raw/master/2017-07-22-graphspace-bosc-ismb.pdf). I also presented a [poster](https://github.com/adbharadwaj/graphspace-bosc-2017/raw/master/2017-07-22-ismb-bosc-graphspace-poster.pdf). You can find the relevant post about the poster [here](2017-07-22-graphspace-poster-bosc-ismb-prague-2017).
 
-<a href="https://github.com/adbharadwaj/graphspace-bosc-2017/blob/master/2017-07-22-ismb-bosc-graphspace-poster.pdf">
-<img src="https://github.com/adbharadwaj/graphspace-bosc-2017/raw/master/2017-07-22-ismb-bosc-graphspace-poster.jpg"/>
-</a>
-
 
 **Project Website**: [http://graphspace.org](http://graphspace.org)
 
