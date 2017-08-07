@@ -13,30 +13,6 @@ I had the pleasure of presenting GraphSpace at 25th conference on Intelligent Sy
 
 You can also find the presentation slides [here](https://github.com/adbharadwaj/graphspace-bosc-2017/raw/master/2017-07-22-graphspace-bosc-ismb.pdf). I also presented a [poster](https://github.com/adbharadwaj/graphspace-bosc-2017/raw/master/2017-07-22-ismb-bosc-graphspace-poster.pdf). You can find the relevant post about the poster [here](2017-07-22-graphspace-poster-bosc-ismb-prague-2017).
 
-
-**Project Website**: [http://graphspace.org](http://graphspace.org)
-
-**Source Code**: [https://github.com/Murali-group/GraphSpace](https://github.com/Murali-group/GraphSpace)
-
-**License**: GNU General Public License v3
-
-Computational analysis of molecular interaction networks has become pervasive in systems biology. Despite the existence of several software systems and interfaces to analyze and view networks, interdisci- plinary research teams in network biology face several challenges in sharing, exploring, and interpreting computed networks in their collaborations.
-GRAPHSPACE is a web-based system that provides a rich set of user-friendly features designed to stim- ulate and enhance network-based collaboration:
-- Users can upload richly-annotated networks, irrespective of the algorithms or software used to gener- ate them. GRAPHSPACE networks follow the JSON format supported by Cytoscape.js [1]. Users of Cytoscape [3] can export their networks and upload them directly into GRAPHSPACE.
-- Users can create private groups, invite other users to join groups, and share networks with groups.
-- A user may search for networks with a specific property or that contain a specific node or collection
-of nodes.
-- A powerful layout editor allows users to efficiently modify node positions, edit node and edge styles,
-save new layouts, and share them with other users.
-- Researchers may make networks public and provide a persistent URL in a publication, enabling other
-researchers to explore these networks.
-- A comprehensive RESTFul API streamlines programmatic access to GRAPHSPACE features.
-- A Python module called graphspace python allows a user to rapidly construct a graph, set visual
-styles of nodes and edges, and then upload the graph, all within tens of lines of code. It is very easy
-to integrate this script into a user’s software pipeline.
-Currently, GraphSpace supports more than 300 users who have stored more than 21,000 graphs (most of
-them private) containing a total of over 1.4 million nodes and 3.8 million edges. Conceptually, GRAPHSPACE serves as a bridge between visualization and analysis of individual networks supported by systems such as Cytoscape [3] and the network indexing capabilities of NDex [2]. We anticipate that GRAPHSPACE will find wide use in network biology projects and will assist in accelerating all aspects of collaborations among computational biologists and experimentalists, including preliminary investigations, manuscript develop- ment, and dissemination of research.
-
 **References**
 
 1. M. Franz, C. T. Lopes, G. Huck, Y. Dong, O. Sumer, and G. D. Bader. Cytoscape.js: a graph theory library for visualisation and analysis. Bioinformatics, 32:309–311, Sep 2015.
