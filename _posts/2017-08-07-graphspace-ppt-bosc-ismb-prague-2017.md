@@ -12,6 +12,11 @@ I had the pleasure of presenting GraphSpace at 25th conference on Intelligent Sy
 <iframe width="560" height="315" src="https://www.youtube.com/embed/knaG9MLn6NA" frameborder="0" allowfullscreen></iframe>
 <br/><br/>
 
+<script async class="speakerdeck-embed" data-id="b80c5b99337a452c8f63806aadac6a9d" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+<br/><br/>
+
+
 You can also find the presentation slides [here](https://github.com/adbharadwaj/graphspace-bosc-2017/raw/master/2017-07-22-graphspace-bosc-ismb.pdf). I also presented a [poster](https://github.com/adbharadwaj/graphspace-bosc-2017/raw/master/2017-07-22-ismb-bosc-graphspace-poster.pdf). You can find the relevant post about the poster [here](2017-07-22-graphspace-poster-bosc-ismb-prague-2017).
 
 **References**
