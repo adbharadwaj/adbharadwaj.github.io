@@ -472,19 +472,19 @@ blockquote p:last-child {
             margin-right: 2px;
 
             &.blue {
-                color: #09f;
+                color: #fff;
                 background: #036;
                 border: 1px solid #069;
             }
 
             &.green {
-                color: #00B100;
+                color: #fff;
                 background: #004500;
                 border: 1px solid #007e00;
             }
 
             &.red {
-                color: #F33D36;
+                color: #fff;
                 background: #7D0000;
                 border: 1px solid #BB0000;
             }
@@ -492,7 +492,7 @@ blockquote p:last-child {
             &:hover {
 //                 border: 1px solid #777;
 //                 background: #000;
-                color: #555;
+                color: #fff;
             }
         }
     }
