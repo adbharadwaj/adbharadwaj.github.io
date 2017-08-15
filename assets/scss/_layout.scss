@@ -260,18 +260,20 @@ h2.year i.fa {
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
-    border-bottom: 1px solid #ddd;
-    background-color: #f3f3f3;
+//     border-bottom: 1px solid #ddd;
+//     background-color: #f3f3f3;
+    background: linear-gradient(120deg, #514A9D, #24C6DC);
+    box-shadow: 0 8px 6px -6px #bdbdbd;
 }
 
 .masthead-title {
     /*text-align: center;*/
     margin-top: 2rem;
     margin-bottom: 0;
-    color: #505050;
+    color: #ffffff;
 
     a {
-        color: #505050;
+        color: #ffffff;
         font-weight: bold;
 
         &:hover {
@@ -282,7 +284,7 @@ h2.year i.fa {
     small {
         font-size: 75%;
         font-weight: normal;
-        color: #aaa;
+        color: #ececec;
         letter-spacing: 0;
         display: block;
         clear: both;
