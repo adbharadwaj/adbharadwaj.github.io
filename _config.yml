@@ -32,6 +32,9 @@ facebook:
 twitter:
   username: adbcoder
 
+
+related: true
+
 # Build settings
 #source: ./
 #destination: ../adbharadwaj.github.io/
