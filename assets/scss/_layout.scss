@@ -323,6 +323,7 @@ h2.year i.fa {
         border: 1px solid #555;
         background: #444;
         color: #fff;
+        text-decoration: none;
     }
 }
 
@@ -501,6 +502,7 @@ blockquote p:last-child {
 //                 border: 1px solid #777;
 //                 background: #000;
                 color: #fff;
+                text-decoration: none;
             }
         }
     }
@@ -536,6 +538,7 @@ blockquote p:last-child {
         &:hover {
             background-color: #069;
             color: #fff;
+            text-decoration: none;
         }
     }
 }
@@ -584,5 +587,6 @@ a.skip:hover {
     a.tag-anchor:hover {
         background: #069;
         color: #fff;
+        text-decoration: none;
     }
 }
