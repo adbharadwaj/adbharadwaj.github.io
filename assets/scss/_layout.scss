@@ -451,7 +451,7 @@ blockquote p:last-child {
 
 .top-menu {
     list-style-type: none;
-    margin: 20px 0 0 -52px;
+    margin: 20px 0 0 -42px;
     /*text-align: center;*/
     line-height: 2.4;
     font-size: 18px;
@@ -511,6 +511,7 @@ blockquote p:last-child {
     /*text-align: center;*/
     margin-top: 20px;
     margin-right: -10px;
+    float: right;
 
     a {
         padding: 5px 10px;
