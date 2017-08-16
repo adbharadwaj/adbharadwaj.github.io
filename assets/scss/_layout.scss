@@ -528,8 +528,8 @@ blockquote p:last-child {
         transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
 
         &:hover {
-            color: #000;
-//             background: #111;
+            background-color: #069;
+            color: #fff;
         }
     }
 }
