@@ -466,7 +466,8 @@ blockquote p:last-child {
             border-bottom: 0;
 //             background: #fff;
             padding: 5px 10px;
-//             border: 1px solid #ccc;
+            border: 1px solid #555;
+            border-radius: 0.2rem;
             white-space: nowrap;
             letter-spacing: 1px;
             margin-left: 2px;
