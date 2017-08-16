@@ -25,7 +25,7 @@ layout: default
 1. [GRAPHSPACE: Stimulating interdisciplinary collaborations in network biology](https://f1000research.com/posters/6-1390) at 18th Annual Bioinformatics Open Source Conference (BOSC 2017) and Joint 25th Annual International Conference on Intelligent Systems for Molecular Biology (ISMB) and 16th European Conference on Computational Biology (ECCB) 2017.
 
 
-# Invited Talks
+# Conference Talks
 
 
 1. [GRAPHSPACE: Stimulating interdisciplinary collaborations in network biology](https://f1000research.com/slides/6-1391) at 18th Annual Bioinformatics Open Source Conference (BOSC 2017) and Joint 25th Annual International Conference on Intelligent Systems for Molecular Biology (ISMB) and 16th European Conference on Computational Biology (ECCB) 2017.
