@@ -26,6 +26,10 @@ layout: default
 		</div>
 	{% endif %}
 
+  {% if site.related %}
+    {% include related.html %}
+  {% endif %}
+	
   {% include disqus.html %}
 
 </div>
