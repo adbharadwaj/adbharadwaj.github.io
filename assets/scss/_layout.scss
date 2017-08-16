@@ -506,12 +506,13 @@ blockquote p:last-child {
 }
 
 .footer-social-links {
-    font-size: 14px;
+    font-size: 18px;
     /*text-align: center;*/
-    margin-top: 5px;
+    margin-top: 20px;
+    margin-right: -10px;
 
     a {
-        padding: 3px 5px;
+        padding: 5px 10px;
         width: 25px;
         height: auto;
         position: relative;
