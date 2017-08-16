@@ -79,6 +79,7 @@ a {
     &:hover {
         background-color: #069;
         color: #fff;
+        text-decoration: none;
     }
 }
 
@@ -279,6 +280,7 @@ h2.year i.fa {
         font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
         &:hover {
             background-color: transparent;
+            text-decoration: none;
         }
     }
 
