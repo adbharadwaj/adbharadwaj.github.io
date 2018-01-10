@@ -9,7 +9,7 @@ tags: [GraphSpace,Layouts,Simulated Annealing,PPIN]
 Networks have become ubiquitous in systems biology and visualization is a crucial component in their analysis. In this blog post I am going explore the power of simulated annealing algorithm in laying out PPINs. The algorithm is named after [annealing in metallurgy](https://en.wikipedia.org/wiki/Annealing_(metallurgy)), a technique that involves heating a material above its recrystallization temperature, maintaining a suitable temperature, and then cooling. The Simulated
 Annealing (SA) algorithm represents the space of the visualization problem as a set of layouts (states) each one with associated energy, and it tries to find the layout (state) with minimum energy (i.e. below a threshold) that represents a potential network layout. 
 
-The associated energy function can be used to optmize any graph drawing constraint. For example, a common constraint is to decrease the number of edge crossings. [Davidson and Harel]() incorporated the following constrainsts to draw graphs "nicely".
+The associated energy function can be used to optimize any graph drawing constraint. For example, a common constraint is to decrease the number of edge crossings. [Davidson and Harel]() incorporated the following constraints to draw graphs "nicely".
 
 1. Distribute nodes nicely.
 2. Make edge lengths uniform.
@@ -24,3 +24,12 @@ the exterior of a cell to its nucleus. In this blog, I am going to explore the f
 1. Arrange the receptor nodes at the top of the layout.
 2. Arrange the transcription factor nodes at the bottom of the layout.
 3. Arrange nodes with similar biological properties together.
+
+Essentially simulated annealing performs the following steps:
+
+- Step 1: Randomly choose an initial layout.
+- Step 2: Repeat Step 3 - 4 for fixed number of steps.
+- Step 3: Compute a new neighboring (layout) state w.r.t current state (layout). 
+- Step 4: If the new state is better than the current state, move to the new state. Otherwise, move to the worse new state with a probability which decreases with temperature.
+- Step 5: Decrease the temperature.
+- Step 6: If termination rule is satisfied, stop; otherwise go back to Step 2. 
