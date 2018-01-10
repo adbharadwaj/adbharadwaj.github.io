@@ -34,3 +34,7 @@ the exterior of a cell to its nucleus. In this blog, I am going to explore the f
 2. Arrange the transcription factor nodes at the bottom of the layout.
 3. Arrange nodes with similar biological properties together.
 
+
+For the purpose of demo, I have used the Cytoscape layout extension - [cytoscape.js-simulated-annealing]() to apply simulated annealing on a given graph. The library allows us to include user defined energy functions and other useful customizations.
+
+In the rest of the blog I will provide a series of examples to demonstrate how simulated annealing can be used to mimic biological constraints mentioned above. First I will give a typical example of nicely drawn graph showcased by [Davidson and Harel](). 
