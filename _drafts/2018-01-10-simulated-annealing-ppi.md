@@ -54,4 +54,6 @@ where t<sub>i</sub>, b<sub>j</sub> stand for the distance between receptor i and
 
 ![Nice Layout of a PPI network](../assets/images/ppi-example-1-triangles-top-rectangles-bottom.png)
 
-In this layout, simulated annealing has optimized the new constraint of moving receptors (triangles) to the top and transcription factors (rectangles) to the bottom along with the 5 properties of a nice layout defined by [Davidson and Harel](). Infact, in this solution there are no edge crossings in comparison to previous solution. Due to the introduction of above mentioned constraint, the generated solutions are more biologically meaningful. It is now easier to identify the start and end of information flow and 
+In this layout, simulated annealing has optimized the new constraint of moving receptors (triangles) to the top and transcription factors (rectangles) to the bottom along with the 5 properties of a nice layout defined by [Davidson and Harel](). Due to the introduction of above mentioned constraint, the generated solutions are more biologically meaningful. It is now easier to identify the start and end of information flow without even going through the entire network flow. But at the same time it very hard to discern the sequence of information flow from the placement of intermediary nodes (ellipses). For example, the node 'c' is placed above node 'g' and 'b' when the actual sequence of information flow is a->b->g->c->e. 
+
+In order to 
