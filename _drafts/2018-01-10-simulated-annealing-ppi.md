@@ -1,4 +1,4 @@
----
+s---
 layout: post
 title:  "Visualizing Protein-Protein Interaction Networks using Simulated Annealing Algorithm"
 date:   2018-01-10 13:59:39 -0500
@@ -37,4 +37,8 @@ the exterior of a cell to its nucleus. In this blog, I am going to explore the f
 
 For the purpose of demo, I have used the Cytoscape layout extension - [cytoscape.js-simulated-annealing]() to apply simulated annealing on a given graph. The library allows us to include user defined energy functions and other useful customizations.
 
-In the rest of the blog I will provide a series of examples to demonstrate how simulated annealing can be used to mimic biological constraints mentioned above. First I will give a typical example of nicely drawn graph showcased by [Davidson and Harel](). 
+In the rest of the blog I will provide a series of examples to demonstrate how simulated annealing can be used to mimic biological constraints mentioned above. First I will give a typical example of nicely drawn graph showcased by [Davidson and Harel](). For the purpose of demostration, I have used a small synthetic network where triangle nodes reperesent receptors, rectangle nodes represent transcription factors and ellipses represent intermediary nodes.
+
+![Nice Layout of a PPI network](../assets/images/ppi-example-1-nice-layout.png)
+
+This layout showcases all of the 5 properties of a nice layout defined by [Davidson and Harel](). Although the layout is readable, it doesnt mimic or represent the underlying bioogical knowledge. For example, the 
