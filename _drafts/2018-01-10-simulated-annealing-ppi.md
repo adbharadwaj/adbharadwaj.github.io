@@ -34,11 +34,16 @@ the exterior of a cell to its nucleus. In this blog, I am going to explore the f
 2. Arrange the transcription factor nodes at the bottom of the layout.
 3. Arrange nodes with similar biological properties together.
 
+These constraints capture the intrinsic biological meaning of the networks. Receptor proteins that are located
+on the cell membrane, whose function is to sense the presence of the specific signals in the cell’s environment. When a
+receptor senses such a signal, it communicates the information to the interior the cell via interactions with other nodes in the network. Ultimately, the signal reaches proteins called transcription factors, which move to the cell’s nucleus to carry out its response to the signal. These constraints utimately seek to convey the flow of information from the cell membrane to the nucleus.
 
-For the purpose of demo, I have used the Cytoscape layout extension - [cytoscape.js-simulated-annealing]() to apply simulated annealing on a given graph. The library allows us to include user defined energy functions and other useful customizations.
+Going ahead, for the purpose of demo, I have used the Cytoscape layout extension - [cytoscape.js-simulated-annealing]() to apply simulated annealing on a given graph. The library allows us to include user defined energy functions and other useful customizations.
 
 In the rest of the blog I will provide a series of examples to demonstrate how simulated annealing can be used to mimic biological constraints mentioned above. First I will give a typical example of nicely drawn graph showcased by [Davidson and Harel](). For the purpose of demostration, I have used a small synthetic network where triangle nodes reperesent receptors, rectangle nodes represent transcription factors and ellipses represent intermediary nodes.
 
 ![Nice Layout of a PPI network](../assets/images/ppi-example-1-nice-layout.png)
 
-This layout showcases all of the 5 properties of a nice layout defined by [Davidson and Harel](). Although the layout is readable, it doesnt mimic or represent the underlying biological knowledge. For example, there is no clear organization of nodes. The receptors and transcription factors are laid out on same level/height. It is also unclear if the information flow started at intermediary protein node 'a' or receptor node 'h'. There is no consistent sense of direction for information flow as well. The information flow from node 'h' to node  'd' goes from top to bottom in contrast to bottom to top information flow from node 'i' to node 'd'. Therefore, due to the lack of meaningful placement of nodes, the layout is not biologically informative. Inadvertently, the reader has to carefully traverse the graph to understand the flow of information.
+This layout showcases all of the 5 properties of a nice layout defined by [Davidson and Harel](). Although the layout is readable, it doesnt mimic or represent the underlying biological knowledge. For example, there is no clear organization of nodes. The receptors and transcription factors are laid out on same level/height. It is also unclear if the information flow started at intermediary protein node 'a' or receptor node 'h'. There is no consistent sense of direction for information flow as well. The information flow from node 'h' to node  'd' goes from top to bottom in contrast to bottom to top information flow from node 'i' to node 'd'. Therefore, due to the lack of meaningful placement of nodes, the layout is not biologically informative. Inadvertently, the reader has to carefully traverse the graph to understand the flow of information from the cell membrane to the nucleus.
+
+
