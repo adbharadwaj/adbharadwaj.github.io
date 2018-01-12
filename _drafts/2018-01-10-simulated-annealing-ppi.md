@@ -56,4 +56,8 @@ where t<sub>i</sub>, b<sub>j</sub> stand for the distance between receptor i and
 
 In this layout, simulated annealing has optimized the new constraint of moving receptors (triangles) to the top and transcription factors (rectangles) to the bottom along with the 5 properties of a nice layout defined by [Davidson and Harel](). Due to the introduction of above mentioned constraint, the generated solutions are more biologically meaningful. It is now easier to identify the start and end of information flow without even going through the entire network flow. But at the same time it very hard to discern the sequence of information flow from the placement of intermediary nodes (ellipses). For example, the node 'c' is placed above node 'g' and 'b' when the actual sequence of information flow is a->b->g->c->e. 
 
-In order to 
+In order to get more downward pointing paths, we added another constraint to maximize the number of downward pointing path. We call a path downward pointing, if all directed edges in a path are downward pointing i.e target node is below source node. The energy function used for this constraint is:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=d&space;*&space;\&hash;DownwardPointingPaths" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d&space;*&space;\&hash;DownwardPointingPaths" title="d * \#DownwardPointingPaths" /></a>
+
+
