@@ -1,4 +1,4 @@
-s---
+---
 layout: post
 title:  "Visualizing Protein-Protein Interaction Networks using Simulated Annealing Algorithm"
 date:   2018-01-10 13:59:39 -0500
@@ -41,4 +41,4 @@ In the rest of the blog I will provide a series of examples to demonstrate how s
 
 ![Nice Layout of a PPI network](../assets/images/ppi-example-1-nice-layout.png)
 
-This layout showcases all of the 5 properties of a nice layout defined by [Davidson and Harel](). Although the layout is readable, it doesnt mimic or represent the underlying bioogical knowledge. For example, the 
+This layout showcases all of the 5 properties of a nice layout defined by [Davidson and Harel](). Although the layout is readable, it doesnt mimic or represent the underlying biological knowledge. For example, there is no clear organization of nodes. The receptors and transcription factors are laid out on same level/height. It is also unclear if the information flow started at intermediary protein node 'a' or receptor node 'h'. There is no consistent sense of direction for information flow as well. The information flow from node 'h' to node  'd' goes from top to bottom in contrast to bottom to top information flow from node 'i' to node 'd'. Therefore, due to the lack of meaningful placement of nodes, the layout is not biologically informative. Inadvertently, the reader has to carefully traverse the graph to understand the flow of information.
