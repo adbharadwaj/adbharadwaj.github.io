@@ -60,4 +60,7 @@ In order to get more downward pointing paths, we added another constraint to max
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=d&space;*&space;\&hash;DownwardPointingPaths" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d&space;*&space;\&hash;DownwardPointingPaths" title="d * \#DownwardPointingPaths" /></a>
 
+![Downward Pointing Paths of a PPI network](../assets/images/ppi-example-1-downward-pointing-paths.png)
+
+
 
