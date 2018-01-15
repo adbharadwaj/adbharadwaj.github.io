@@ -58,9 +58,19 @@ In this layout, simulated annealing has optimized the new constraint of moving r
 
 In order to get more downward pointing paths, we added another constraint to maximize the number of downward pointing path. We call a path downward pointing, if all directed edges in a path are downward pointing i.e target node is below source node. The energy function used for this constraint is:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=d&space;*&space;\&hash;DownwardPointingPaths" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d&space;*&space;\&hash;DownwardPointingPaths" title="d * \#DownwardPointingPaths" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=d&space;*&space;\frac{1}{\&hash;DownwardPointingPaths}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d&space;*&space;\frac{1}{\&hash;DownwardPointingPaths}" title="d * \frac{1}{\#DownwardPointingPaths}" /></a>
+
+The energy function decreases if the number of downward pointing paths increase.  After including the energy function for downward pointing paths, we got the following solution: 
 
 ![Downward Pointing Paths of a PPI network](../assets/images/ppi-example-1-downward-pointing-paths.png)
 
+In this solution, we have got more downward pointing paths than the previous solutions. But there few shortcomings. Firstly, the intermediary protein nodes are arranged far from each other. Sometimes in biological networks, one would want to arrange similar nodes (e.g. isoforms) closer. In order to satisfy this constraint, we added an energy function which returns a high value if similar nodes (same shape or color) are placed far from each other. The function is defined as following:
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{u&space;\in&space;V}&space;\sum_{v&space;\in&space;V,&space;v&space;\neq&space;u}&space;SameShape(u,v)&space;*&space;dist(u,v)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{u&space;\in&space;V}&space;\sum_{v&space;\in&space;V,&space;v&space;\neq&space;u}&space;SameShape(u,v)&space;*&space;dist(u,v)" title="\sum_{u \in V} \sum_{v \in V, v \neq u} SameShape(u,v) * dist(u,v)" /></a>
 
+where SameShape(u,v) returns 1 if the u and v have same shape, otherwise 0 and dist(u,v) returns euclidean distance between u and v. After including the above energy function we were able to get the following solution (layout).
+
+![Similar Nodes Closer in a PPI network](../assets/images/ppi-example-1-similar-nodes-closer.png)
+
+In this layout, we have not only reached the maximum number of downward pointing paths but also arranged similar nodes closer to each other. Finally, this layout satisfies the three biological constraints defined earliar. First, arrange the receptor nodes at the top of the layout. Second, Arrange the transcription factor nodes at the bottom of the layout. Finally, srrange nodes with similar biological properties (similar shape and color) together.
