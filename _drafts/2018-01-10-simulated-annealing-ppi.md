@@ -73,4 +73,13 @@ where SameShape(u,v) returns 1 if the u and v have same shape, otherwise 0 and d
 
 ![Similar Nodes Closer in a PPI network](../assets/images/ppi-example-1-similar-nodes-closer.png)
 
-In this layout, we have not only reached the maximum number of downward pointing paths but also arranged similar nodes closer to each other. Finally, this layout satisfies the three biological constraints defined earliar. First, arrange the receptor nodes at the top of the layout. Second, Arrange the transcription factor nodes at the bottom of the layout. Finally, srrange nodes with similar biological properties (similar shape and color) together.
+In this layout, we have not only reached the maximum number of downward pointing paths but also arranged similar nodes closer to each other. Finally, this layout satisfies the three biological constraints defined earliar in this blog. 
+
+
+In the above given solution, it is hard to detect if an edge is downward pointing or not at the first look. For example, it his hard to say if node 'a' is above node 'f' or not at the first look. But if we zoom in and take a look at it carefully, we will see that there is a downward pointing edge from node 'a' to 'f'. It would be better we could generate simulated annealing could generate downward pointing paths which are more downward pointing i.e the slope his high or infinity (90<sup>o</sup> angle or vertical edge). This means we need an energy function which returns a higher value if the average slope of all the edges is low. One possible definition could be as following.
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\sum_{e&space;\in&space;E}&space;slope(e)}{|E|}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\sum_{e&space;\in&space;E}&space;slope(e)}{|E|}" title="\frac{\sum_{e \in E} slope(e)}{|E|}" /></a>
+
+
+
+
