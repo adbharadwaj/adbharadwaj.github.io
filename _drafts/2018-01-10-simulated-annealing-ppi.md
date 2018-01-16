@@ -96,5 +96,7 @@ In both of these solutions it is easy to identify the actual information flow us
 
 The code for the above examples can be found [here](https://github.com/adbharadwaj/cytoscape.js-simulated-annealing/tree/master/docs/example3). You can also interact and play with the different energy function and their weights using the [simulated annealing playground app](https://adbharadwaj.github.io/cytoscape.js-simulated-annealing/example3/).
 
+If you want to learn how to use cytoscape.js-simulated-annealing layout extension, please refer to this [page](https://github.com/adbharadwaj/cytoscape.js-simulated-annealing).
+
 
 
