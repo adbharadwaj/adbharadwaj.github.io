@@ -78,8 +78,11 @@ In this layout, we have not only reached the maximum number of downward pointing
 
 In the above given solution, it is hard to detect if an edge is downward pointing or not at the first look. For example, it his hard to say if node 'a' is above node 'f' or not at the first look. But if we zoom in and take a look at it carefully, we will see that there is a downward pointing edge from node 'a' to 'f'. It would be better we could generate simulated annealing could generate downward pointing paths which are more downward pointing i.e the slope his high or infinity (90<sup>o</sup> angle or vertical edge). This means we need an energy function which returns a higher value if the average slope of all the edges is low. One possible definition could be as following.
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\sum_{e&space;\in&space;E}&space;slope(e)}{|E|}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\sum_{e&space;\in&space;E}&space;slope(e)}{|E|}" title="\frac{\sum_{e \in E} slope(e)}{|E|}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\sum_{e&space;\in&space;E}&space;1/slope(e)}{|E|}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\sum_{e&space;\in&space;E}&space;1/slope(e)}{|E|}" title="\frac{\sum_{e \in E} 1/slope(e)}{|E|}" /></a>
 
+After including the above given energy function, simulated annealing generated the following layout.
+
+![Downward pointing slopes in a PPI network](../assets/images/ppi-example-1-downward-pointing-slopes.png)
 
 
 
