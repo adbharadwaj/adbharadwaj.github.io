@@ -82,6 +82,10 @@ In the above given solution, it is hard to detect if an edge is downward pointin
 
 After including the above given energy function, simulated annealing generated the following layout.
 
+![Downward pointing slopes in a PPI network](../assets/images/ppi-example-1-downward-pointing-edges-without-triangles.png)
+
+This doest look like what we would have wanted! The directed edge from node 'a' to 'f' doesnt look downward pointing. This is because our constraint to arrange triangles on the top pulls the triangle node towards top border. Therefore, lets reduce the weight of the constant factor which controls this energy function. After reducing the factor value, simulated annealing generated the following layout.
+
 ![Downward pointing slopes in a PPI network](../assets/images/ppi-example-1-downward-pointing-slopes.png)
 
 
