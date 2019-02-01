@@ -7,6 +7,10 @@ layout: default
 
 # Publications
 
+ 1. <a href="http://crowd.cs.vt.edu/wordpress/wp-content/uploads/2019/01/Bharadwaj_Critter_CHI_2019.pdf">Critter: Augmenting Creative Work with Dynamic Checklists, Automated Quality Assurance, and Contextual Reviewer Feedback</a><br>
+ **Aditya Bharadwaj**, Pao Siangliulue, Adam Marcus, and Kurt Luther<br>
+ <em>ACM Conference on Human Factors in Computing Systems (CHI 2019)</em>, Glasgow, UK, 2019. (24% acceptance rate)
+
  1. <a href="https://doi.org/10.1093/bioinformatics/btx382">GraphSpace: Stimulating Interdisciplinary Collaborations in Network Biology</a>&nbsp;&nbsp;[<a href="http://www.graphspace.org">GraphSpace</a>] &nbsp;&nbsp;[<a href="https://github.com/Murali-group/GraphSpace/">Code</a>]<br>
 	**Aditya Bharadwaj**, Divit P. Singh, Anna Ritz, Allison N. Tegge, Christopher L. Poirel, Pavel Kraikivski, Neil Adames, Kurt Luther, Shiv D. Kale, Jean Peccoud, John J. Tyson, and T. M. Murali <br>
 	<em>Bioinformatics</em>, in press, 2017.
