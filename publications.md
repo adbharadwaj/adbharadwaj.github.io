@@ -16,8 +16,8 @@ layout: default
 		 <em>Nucleic Acids Research</em>, 45 (D1), D432-D439, 2016.
 		 
  2. <a href="http://people.cs.vt.edu/~badityap/papers/netgist-icdm18.pdf">NetGist: Learning to generate task-based network summaries</a>&nbsp;&nbsp;[<a href="http://people.cs.vt.edu/~badityap/CODE/netgist.tgz">Code</a>]<br>
-Sorour E. Amiri, Bijaya Adhikari, Aditya Bharadwaj, and B. Aditya Prakash
-in IEEE ICDM 2018, Singapore. 
+Sorour E. Amiri, Bijaya Adhikari, **Aditya Bharadwaj**, and B. Aditya Prakash<br>
+<em>IEEE ICDM 2018</em>, Singapore. 
 
  2. <a href="http://people.cs.vt.edu/~bijaya/papers/CondensingSDM2017.pdf">Condensing Temporal Networks using Propagation</a>&nbsp;&nbsp;[<a href="http://people.cs.vt.edu/~bijaya/codes/NetCondense.zip">Code</a>]<br>
    Bijaya Adhikari, Yao Zhang, **Aditya Bharadwaj**, and B. Aditya Prakash<br>
