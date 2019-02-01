@@ -19,7 +19,7 @@ layout: default
 Sorour E. Amiri, Bijaya Adhikari, **Aditya Bharadwaj**, and B. Aditya Prakash<br>
 <em>IEEE ICDM 2018</em>, Singapore. 
 
- 2. <a href="http://people.cs.vt.edu/~badityap/papers/netcondense-tkde17.pdf">Propagation based Temporal Network Summarization</a>&nbsp;&nbsp;[<a href="http://people.cs.vt.edu/~badityap/CODE/netgist.tgz">Code</a>]<br>
+ 2. <a href="http://people.cs.vt.edu/~badityap/papers/netcondense-tkde17.pdf">Propagation based Temporal Network Summarization</a>&nbsp;&nbsp;[<a href="http://people.cs.vt.edu/~badityap/CODE/NetCondense.zip">Code</a>]<br>
 Bijaya Adhikari, Yao Zhang, Sorour E. Amiri, **Aditya Bharadwaj**, and B. Aditya Prakash<br>
 <em>IEEE Transactions on Knowledge and Data Engineering (TKDE). 2017 </em>
 
