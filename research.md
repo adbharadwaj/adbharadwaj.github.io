@@ -11,7 +11,7 @@ Checklists and guidelines have played an increasingly important role in complex 
 
 
 
-## [GraphSpace](https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btx382/3867143/GraphSpace-stimulating-interdisciplinary)
+## [GraphSpace: stimulating interdisciplinary collaborations in network biology](https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btx382/3867143/GraphSpace-stimulating-interdisciplinary)
 
 Networks have become ubiquitous in systems biology. Visualization is a crucial component in their analysis. However, collaborations within research teams in network biology are hampered by software systems that are either specific to a computational algorithm, create visualizations that are not biologically meaningful, or have limited features for sharing networks and visualizations. We present GraphSpace, a web-based platform that fosters team science by allowing collaborating research groups to easily store, interact with, layout and share networks
 
