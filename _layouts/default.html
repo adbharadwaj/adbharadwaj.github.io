@@ -15,18 +15,35 @@ layout: compress
       <div class="masthead">
         <div class="container">
           <div class="row">
-            <div class="col-md-10 col-xs-8">
+            <div class="col-md-9 col-xs-8">
               <h2 class="masthead-title">
                 <a href="/" title="Home">{{ site.title }}</a>
                 {% if site.author.display_bio %}
                 <small>{% include bio.html %}</small>
                 {% endif %}
               </h2>
+		    
+	      <div class="nav">
+	      <ul class="top-menu">
+		<li><a href="/" title="Homepage"><i class="fa fa-home"></i></a></li>
+		<li><a href="/blogs">Blogs</a></li>
+		<li><a href="/research">Research</a></li>
+		<li><a href="/publications">Publications</a></li>
+		<li><a href="/resume">Resume</a></li>
+		{% if page.title == "Blogs" %}
+		<li><a href="/#Tags">Tags</a></li>
+		{% else %}
+		<li><a href="/tagged">Tags</a></li>
+		{% endif %}
+		<!-- <li><a href="/reminder">Reminder</a></li> -->
+	      </ul>
+ 	      </div>
+		    
             </div>
-            <div class="col-md-2 col-xs-4 text-right">
+            <div class="col-md-3 col-xs-4 text-right">
                 <h1></h1>
                 <img src='{{ "/assets/logo.png" | prepend: site.baseurl }}'
-                   class="img-thumbnail img-responsive" alt="Aditya Bharadwaj" style="margin: 0; width: 100%; float: right;">
+                   class="img-thumbnail img-responsive" alt="Aditya Bharadwaj" style="margin: 0; width: 75%; float: right;">
             </div>
           </div>
 
@@ -35,21 +52,7 @@ layout: compress
             {% include social_links.html %}
           {% endif %}
 
-          <div class="nav">
-              <ul class="top-menu">
-                <li><a href="/" title="Homepage"><i class="fa fa-home"></i></a></li>
-                <li><a href="/blogs">Blogs</a></li>
-                <li><a href="/research">Research</a></li>
-                <li><a href="/publications">Publications</a></li>
-                <li><a href="/resume">Resume</a></li>
-                {% if page.title == "Blogs" %}
-                <li><a href="/#Tags">Tags</a></li>
-                {% else %}
-                <li><a href="/tagged">Tags</a></li>
-                {% endif %}
-                <!-- <li><a href="/reminder">Reminder</a></li> -->
-              </ul>
-          </div>
+          
 
         </div>
       </div>
