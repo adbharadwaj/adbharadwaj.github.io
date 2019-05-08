@@ -17,6 +17,16 @@
   .masthead {
     text-align: center;
   }
+  
+  .top-menu {
+    font-size: 1.2rem;
+  }
+  
+  .top-menu li {
+    float: none;
+    display: inline-block;
+  }
+
   pre {
     max-height: 500px;
   }
