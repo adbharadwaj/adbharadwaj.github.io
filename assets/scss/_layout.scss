@@ -474,14 +474,13 @@ blockquote p:last-child {
         a {
             color: #fff;
             border-bottom: 0;
-//             background: #fff;
             padding: 5px 10px;
-            border: 1px solid #fff;
+            border: 0.1px solid #fff;
             border-radius: 0.2rem;
             white-space: nowrap;
             letter-spacing: 1px;
-            margin-left: 2px;
-            margin-right: 2px;
+            margin-left: 0px;
+            margin-right: 8px;
 
             &.blue {
                 color: #fff;
