@@ -77,7 +77,7 @@ a {
     transition: all 500ms ease;
 
     &:hover {
-        background-color: #069;
+        background-color: #2b4f8f;
         color: #fff;
         text-decoration: none;
     }
@@ -472,11 +472,11 @@ blockquote p:last-child {
         float: left;
 
         a {
-            color: #555;
+            color: #fff;
             border-bottom: 0;
 //             background: #fff;
             padding: 5px 10px;
-            border: 1px solid #555;
+            border: 1px solid #fff;
             border-radius: 0.2rem;
             white-space: nowrap;
             letter-spacing: 1px;
