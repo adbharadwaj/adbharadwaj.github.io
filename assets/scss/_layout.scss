@@ -262,7 +262,7 @@ h2.year i.fa {
     padding-bottom: 1rem;
     margin-bottom: 1rem;
 //     border-bottom: 1px solid #ddd;
-    background-color: #ffffff;
+    background-color: #001a48;
 //     background: linear-gradient(120deg, #514A9D, #24C6DC);
 //     box-shadow: 0 8px 6px -6px #bdbdbd;
 }
@@ -271,11 +271,11 @@ h2.year i.fa {
     /*text-align: center;*/
     margin-top: 2rem;
     margin-bottom: 0;
-    color: #000;
+    color: #fff;
     line-height: 3rem;
 
     a {
-        color: #069;
+        color: #fff;
         font-weight: bold;
         font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
         &:hover {
@@ -287,10 +287,11 @@ h2.year i.fa {
     small {
         font-size: 60%;
         font-weight: normal;
-        color: #626262;
+        color: #fff;
         letter-spacing: 0;
         display: block;
         clear: both;
+        line-height: 1.2em;
     }
 }
 
