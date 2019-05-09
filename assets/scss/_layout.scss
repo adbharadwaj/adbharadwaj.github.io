@@ -519,16 +519,16 @@ blockquote p:last-child {
 .footer-social-links {
     font-size: 18px;
     /*text-align: center;*/
-    margin-top: 25px;
-    margin-right: -20px;
-    float: right;
+    margin-top: 1rem;
+//     margin-right: -20px;
+//     float: right;
 
     a {
-        padding: 0px 5px;
+//         padding: 0px 5px;
         width: 25px;
         height: auto;
         position: relative;
-        text-align: center;
+        text-align: left;
         display: inline-block;
         color: #555;
         -webkit-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
