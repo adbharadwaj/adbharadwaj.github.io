@@ -537,11 +537,11 @@ blockquote p:last-child {
         -ms-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
         transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
 
-        &:hover {
-            background-color: #069;
-            color: #fff;
-            text-decoration: none;
-        }
+//         &:hover {
+//             background-color: #069;
+//             color: #fff;
+//             text-decoration: none;
+//         }
     }
 }
 
