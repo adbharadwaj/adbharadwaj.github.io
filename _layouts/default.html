@@ -24,6 +24,10 @@ layout: compress
                 {% endif %}
               </h2>
 		    
+	      {% if site.display_social_icons %}
+	         {% include social_links.html %}
+              {% endif %}
+		    
 	      <div class="nav">
 	      <ul class="top-menu">
 		<li><a href="/" title="Homepage"><i class="fa fa-home"></i></a></li>
@@ -49,13 +53,6 @@ layout: compress
             </div>
             
           </div>
-
-
-          {% if site.display_social_icons %}
-            {% include social_links.html %}
-          {% endif %}
-
-          
 
         </div>
       </div>
