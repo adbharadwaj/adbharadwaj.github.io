@@ -1,0 +1,26 @@
+I"}	<p>On 7th August 2017, we presented a tutorial that provided an in-depth introduction to <a href="http://graphspace.org/">GraphSpace</a> during the <a href="http://www.cpe.vt.edu/icsb2017/">International Conference on Systems Biology 2017</a>. Attendees received a hands-on training on the <a href="http://graphspace.org/">GraphSpace</a> web interface and how to incorporate programmatic interaction with <a href="http://graphspace.org/">GraphSpace</a> into their network analysis projects.</p>
+
+<p>Tutorial is available on GitHub. <a href="https://github.com/Murali-group/2017-ICSB-graphspace-tutorial">GraphSpace Tutorial</a></p>
+
+<p>The tutorial was divided in three sessions of 1 hour each.</p>
+
+<ul>
+  <li>
+    <p><strong>Session 1</strong>: Using GraphSpace as a collaborative tool and a cloud store for networks</p>
+
+    <p>This session will began with the main challenges faced by interdisciplinary research groups who collaborate on network analysis projects. We presented the main features of GraphSpace that are intended to address these challenges and compare GraphSpace to other prevalent systems.</p>
+
+    <p>We helped the participants to familiarize with the main features of GraphSpace, including uploading graphs, sharing them with other users, creating layouts and manipulating node and edge styles, sharing layouts, searching across graphs, and publishing graphs. Attendees will also learn how to export their networks from Cytoscape into GraphSpace.</p>
+  </li>
+  <li>
+    <p><strong>Session 2</strong>: Integrating GraphSpace into network analysis projects</p>
+
+    <p>We started with a brief introduction to Python, NetworkX package and the graphspace_python package to demonstrate the ease with which a researcher can networks that can be readily uploaded to GraphSpace programmatically. Attendees also learned how to use the graphspace_python package to manage groups, share graphs and layouts with a group, publish graphs and layouts for public viewing, and use tags for organizing graphs.</p>
+  </li>
+  <li>
+    <p><strong>Session 3</strong>: Demonstrating use cases for GraphSpace</p>
+
+    <p>In this session, users engaged in developing more complex analysis pipelines around NetworkX and GraphSpace. They used heterogeneous data sources to build networks, perform different types of network analyses, and encode the results visually in networks that they will upload to GraphSpace.</p>
+  </li>
+</ul>
+:ET
