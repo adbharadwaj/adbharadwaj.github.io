@@ -1,0 +1,59 @@
+I"�<!-- I had the pleasure of presenting GraphSpace at 25th conference on Intelligent Systems for Molecular Biology held at [Prague, Czech Republic](https://www.iscb.org/ismbeccb2017).  -->
+
+<p>The 25th conference on Intelligent Systems for Molecular Biology was held at <a href="https://www.iscb.org/ismbeccb2017">Prague, Czech Republic</a> in 2017. I had the pleasure of presenting a talk and poster at ISMB. Here is the poster that I presented.</p>
+
+<p><br /><br /></p>
+
+<p><a href="https://github.com/adbharadwaj/graphspace-bosc-2017/blob/master/2017-07-22-ismb-bosc-graphspace-poster.pdf">
+<img style="max-width: 50%;" src="https://github.com/adbharadwaj/graphspace-bosc-2017/raw/master/2017-07-22-ismb-bosc-graphspace-poster.jpg" />
+</a></p>
+
+<p>Here is the talk that I presented.</p>
+
+<p><br /><br /></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/knaG9MLn6NA" frameborder="0" allowfullscreen=""></iframe>
+<p><br /><br /></p>
+
+<script async="" class="speakerdeck-embed" data-id="b80c5b99337a452c8f63806aadac6a9d" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+<p><br /><br /></p>
+
+<p>You can also find the presentation slides <a href="https://github.com/adbharadwaj/graphspace-bosc-2017/raw/master/2017-07-22-graphspace-bosc-ismb.pdf">here</a>. I also presented a <a href="https://github.com/adbharadwaj/graphspace-bosc-2017/raw/master/2017-07-22-ismb-bosc-graphspace-poster.pdf">poster</a>. You can find the relevant post about the poster <a href="2017-07-22-graphspace-poster-bosc-ismb-prague-2017">here</a>.</p>
+
+<p>A little bit more information about the project.</p>
+
+<p><strong>Project Website</strong>: <a href="http://graphspace.org">http://graphspace.org</a></p>
+
+<p><strong>Source Code</strong>: <a href="https://github.com/Murali-group/GraphSpace">https://github.com/Murali-group/GraphSpace</a></p>
+
+<p><strong>License</strong>: GNU General Public License v3</p>
+
+<p>Computational analysis of molecular interaction networks has become pervasive in systems biology. Despite the existence of several software systems and interfaces to analyze and view networks, interdisci- plinary research teams in network biology face several challenges in sharing, exploring, and interpreting computed networks in their collaborations.
+GRAPHSPACE is a web-based system that provides a rich set of user-friendly features designed to stim- ulate and enhance network-based collaboration:</p>
+<ul>
+  <li>Users can upload richly-annotated networks, irrespective of the algorithms or software used to gener- ate them. GRAPHSPACE networks follow the JSON format supported by Cytoscape.js [1]. Users of Cytoscape [3] can export their networks and upload them directly into GRAPHSPACE.</li>
+  <li>Users can create private groups, invite other users to join groups, and share networks with groups.</li>
+  <li>A user may search for networks with a specific property or that contain a specific node or collection
+of nodes.</li>
+  <li>A powerful layout editor allows users to efficiently modify node positions, edit node and edge styles,
+save new layouts, and share them with other users.</li>
+  <li>Researchers may make networks public and provide a persistent URL in a publication, enabling other
+researchers to explore these networks.</li>
+  <li>A comprehensive RESTFul API streamlines programmatic access to GRAPHSPACE features.</li>
+  <li>A Python module called graphspace python allows a user to rapidly construct a graph, set visual
+styles of nodes and edges, and then upload the graph, all within tens of lines of code. It is very easy
+to integrate this script into a user’s software pipeline.
+Currently, GraphSpace supports more than 300 users who have stored more than 21,000 graphs (most of
+them private) containing a total of over 1.4 million nodes and 3.8 million edges. Conceptually, GRAPHSPACE serves as a bridge between visualization and analysis of individual networks supported by systems such as Cytoscape [3] and the network indexing capabilities of NDex [2]. We anticipate that GRAPHSPACE will find wide use in network biology projects and will assist in accelerating all aspects of collaborations among computational biologists and experimentalists, including preliminary investigations, manuscript develop- ment, and dissemination of research.</li>
+</ul>
+
+<p><strong>References</strong></p>
+
+<ol>
+  <li>M. Franz, C. T. Lopes, G. Huck, Y. Dong, O. Sumer, and G. D. Bader. Cytoscape.js: a graph theory library for visualisation and analysis. Bioinformatics, 32:309–311, Sep 2015.</li>
+  <li>D.Pratt,J.Chen,D.Welker,R.Rivas,R.Pillich,V.Rynkov,K.Ono,C.Miello,L.Hicks,S.Szalma,A.Stojmirovic,R.Dobrin,M.Braxen- thaler, J. Kuentzer, B. Demchak, and T. Ideker. NDEx, the Network Data Exchange. Cell Syst, 1(4):302–305, Oct 2015.</li>
+  <li>M. E. Smoot, K. Ono, J. Ruscheinski, P. L. Wang, and T. Ideker. Cytoscape 2.8: new features for data integration and network visualization. Bioinformatics, 27(3):431–432, Feb 2011.</li>
+</ol>
+
+<p>Please contact me at <a href="adb@vt.edu">adb@vt.edu</a> if you have any doubts.</p>
+:ET

@@ -4,16 +4,17 @@ title:  "Visualizing Protein-Protein Interaction Networks using Simulated Anneal
 date:   2018-01-10 13:59:39 -0500
 categories: graphspace feeds
 tags: [GraphSpace,Layouts,Simulated Annealing,PPIN]
+type: blog
 ---
 
 Networks have become ubiquitous in systems biology and visualization is a crucial component in their analysis. In this blog post I am going explore the power of simulated annealing algorithm in laying out PPINs. The algorithm is named after [annealing in metallurgy](https://en.wikipedia.org/wiki/Annealing_(metallurgy)), a technique that involves heating a material above its recrystallization temperature, maintaining a suitable temperature, and then cooling. The Simulated
-Annealing (SA) algorithm represents the space of the visualization problem as a set of layouts (states) each one with associated energy, and it tries to find the layout (state) with minimum energy (i.e. below a threshold) that represents a potential network layout. 
+Annealing (SA) algorithm represents the space of the visualization problem as a set of layouts (states) each one with associated energy, and it tries to find the layout (state) with minimum energy (i.e. below a threshold) that represents a potential network layout.
 
 Essentially simulated annealing performs the following steps:
 
 - Step 1: Randomly choose an initial layout.
 - Step 2: Repeat Step 3 - 4 for fixed number of steps.
-- Step 3: Compute a new neighboring (layout) state w.r.t current state (layout). 
+- Step 3: Compute a new neighboring (layout) state w.r.t current state (layout).
 - Step 4: If the new state is better than the current state, move to the new state. Otherwise, move to the worse new state with a probability which decreases with temperature.
 - Step 5: Decrease the temperature.
 - Step 6: If termination rule is satisfied, stop; otherwise go back to Step 2. Possible termination rules are: average change in energy function in one iteration falls below a user-defined threshold or number of iterations exceed maximum number of iterations defined by the user.
@@ -54,14 +55,14 @@ where t<sub>i</sub>, b<sub>j</sub> stand for the distance between receptor i and
 
 ![Nice Layout of a PPI network](../assets/images/ppi-example-1-triangles-top-rectangles-bottom.png)
 
-In this layout, simulated annealing has optimized the new constraint of moving receptors (triangles) to the top and transcription factors (rectangles) to the bottom along with the 5 properties of a nice layout defined by [Davidson and Harel](). Due to the introduction of above mentioned constraint, the generated solutions are more biologically meaningful. It is now easier to identify the start and end of information flow without even going through the entire network flow. But at the same time it very hard to discern the sequence of information flow from the placement of intermediary nodes (ellipses). For example, the node 'c' is placed above node 'g' and 'b' when the actual sequence of information flow is a->b->g->c->e. 
+In this layout, simulated annealing has optimized the new constraint of moving receptors (triangles) to the top and transcription factors (rectangles) to the bottom along with the 5 properties of a nice layout defined by [Davidson and Harel](). Due to the introduction of above mentioned constraint, the generated solutions are more biologically meaningful. It is now easier to identify the start and end of information flow without even going through the entire network flow. But at the same time it very hard to discern the sequence of information flow from the placement of intermediary nodes (ellipses). For example, the node 'c' is placed above node 'g' and 'b' when the actual sequence of information flow is a->b->g->c->e.
 
 In order to get more downward pointing paths, we added another constraint to maximize the number of downward pointing path. We call a path downward pointing, if all directed edges in a path are downward pointing i.e target node is below source node. The energy function used for this constraint is:
 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=d&space;*&space;\frac{1}{\&hash;DownwardPointingPaths}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d&space;*&space;\frac{1}{\&hash;DownwardPointingPaths}" title="d * \frac{1}{\#DownwardPointingPaths}" /></a>
 
-The energy function decreases if the number of downward pointing paths increase.  After including the energy function for downward pointing paths, we got the following solution: 
+The energy function decreases if the number of downward pointing paths increase.  After including the energy function for downward pointing paths, we got the following solution:
 
 ![Downward Pointing Paths of a PPI network](../assets/images/ppi-example-1-downward-pointing-paths.png)
 
@@ -73,7 +74,7 @@ where SameShape(u,v) returns 1 if the u and v have same shape, otherwise 0 and d
 
 ![Similar Nodes Closer in a PPI network](../assets/images/ppi-example-1-similar-nodes-closer.png)
 
-In this layout, we have not only reached the maximum number of downward pointing paths but also arranged similar nodes closer to each other. Finally, this layout satisfies the three biological constraints defined earliar in this blog. 
+In this layout, we have not only reached the maximum number of downward pointing paths but also arranged similar nodes closer to each other. Finally, this layout satisfies the three biological constraints defined earliar in this blog.
 
 
 In the above given solution, it is hard to detect if an edge is downward pointing or not at the first look. For example, it his hard to say if node 'a' is above node 'f' or not at the first look. But if we zoom in and take a look at it carefully, we will see that there is a downward pointing edge from node 'a' to 'f'. It would be better we could generate simulated annealing could generate downward pointing paths which are more downward pointing i.e the slope his high or infinity (90<sup>o</sup> angle or vertical edge). This means we need an energy function which returns a higher value if the average slope of all the edges is low. One possible definition could be as following.
@@ -97,6 +98,3 @@ In both of these solutions it is easy to identify the actual information flow us
 The code for the above examples can be found [here](https://github.com/adbharadwaj/cytoscape.js-simulated-annealing/tree/master/docs/example3). You can also interact and play with the different energy function and their weights using the [simulated annealing playground app](https://adbharadwaj.github.io/cytoscape.js-simulated-annealing/example3/).
 
 If you want to learn how to use cytoscape.js-simulated-annealing layout extension, please refer to this [page](https://github.com/adbharadwaj/cytoscape.js-simulated-annealing).
-
-
-

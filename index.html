@@ -58,9 +58,40 @@ Prior to VT, I received my Bachelor of Engineering degree in Computer Science fr
 
 I have worked on various technologies like Python, Java, SQL, MongoDB, ElasticSearch, Kibana, Android and iOS. I love contributing to open source and have been a mentoring in <a href="https://summerofcode.withgoogle.com/">Google Summer of Code program</a> for the last four years.
 
-<!-- <br> -->
+<br>
 
-<!-- <h3>News</h3> -->
+<h3>News</h3>
+
+<div class="posts">
+    {% for post in site.posts %}
+    {% if post.type == "news" %}
+    <!-- {% unless post.next %}
+    <h4 class="year">{{ post.date | date: '%Y' }}</h4>
+    {% else %}
+    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+    {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+    {% if year != nyear %}
+    <h4 class="year">{{ post.date | date: '%Y' }}</h4>
+    {% endif %}
+    {% endunless %} -->
+
+    <div class="news-list">
+        <div class="post-list-date"><small>{{ post.date | date: "%Y %b %d" }}</small></div>
+        <div class="text-truncate"><a href="{{ post.url }}">{{ post.title }}</a></div>
+        <div class="post-list-desc">{{ post.description }}</div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
+
+
+<div>
+  {% capture my_include %}{% include_relative publications.md %}{% endcapture %}
+  {{ my_include | markdownify }}
+</div>
+
+
+
 
 <hr/>
 

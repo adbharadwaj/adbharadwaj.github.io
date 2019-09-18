@@ -342,6 +342,11 @@ h2.year i.fa {
     font-size: 1.2em;
 }
 
+.news-list {
+    margin: 0 0 0.75em;
+    font-size: 1em;
+}
+
 .page a,
 .post a {
     border-bottom: 1px solid #069;
@@ -373,6 +378,11 @@ blockquote p:last-child {
 .post-list-date {
     float: right;
     margin: 0 0 0 20px;
+}
+
+.news-list-date {
+    float: left;
+    margin: 0 20px 0px 0px;
 }
 
 .page-title,

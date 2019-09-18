@@ -1,4 +1,4 @@
-I"43<p>Networks have become ubiquitous in systems biology and visualization is a crucial component in their analysis. In this blog post I am going explore the power of simulated annealing algorithm in laying out PPINs. The algorithm is named after <a href="https://en.wikipedia.org/wiki/Annealing_(metallurgy)">annealing in metallurgy</a>, a technique that involves heating a material above its recrystallization temperature, maintaining a suitable temperature, and then cooling. The Simulated
+I"33<p>Networks have become ubiquitous in systems biology and visualization is a crucial component in their analysis. In this blog post I am going explore the power of simulated annealing algorithm in laying out PPINs. The algorithm is named after <a href="https://en.wikipedia.org/wiki/Annealing_(metallurgy)">annealing in metallurgy</a>, a technique that involves heating a material above its recrystallization temperature, maintaining a suitable temperature, and then cooling. The Simulated
 Annealing (SA) algorithm represents the space of the visualization problem as a set of layouts (states) each one with associated energy, and it tries to find the layout (state) with minimum energy (i.e. below a threshold) that represents a potential network layout.</p>
 
 <p>Essentially simulated annealing performs the following steps:</p>
@@ -93,5 +93,4 @@ receptor senses such a signal, it communicates the information to the interior t
 <p>The code for the above examples can be found <a href="https://github.com/adbharadwaj/cytoscape.js-simulated-annealing/tree/master/docs/example3">here</a>. You can also interact and play with the different energy function and their weights using the <a href="https://adbharadwaj.github.io/cytoscape.js-simulated-annealing/example3/">simulated annealing playground app</a>.</p>
 
 <p>If you want to learn how to use cytoscape.js-simulated-annealing layout extension, please refer to this <a href="https://github.com/adbharadwaj/cytoscape.js-simulated-annealing">page</a>.</p>
-
 :ET

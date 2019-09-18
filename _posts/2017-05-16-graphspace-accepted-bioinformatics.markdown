@@ -1,21 +1,13 @@
 ---
 layout: post
-title:  "Presented a poster on GraphSpace at ISMB/ECCB 2017."
-date:   2017-07-22 13:59:39 -0500
+title:  "My first-authored paper on interactive graph visualisation and sharing website is accepted by Bioinformatics. The paper title is <i> GraphSpace: Stimulating Interdisciplinary Collaborations in Network Biology</i>."
+date:   2017-06-16 13:59:39 -0500
 categories: graphspace feeds
-tags: [GraphSpace,Poster,ISMB,ECCB,BOSC]
+tags: [GraphSpace,Bioinformatics,Paper]
+type: news
 ---
 
-The 25th conference on Intelligent Systems for Molecular Biology was held at [Prague, Czech Republic](https://www.iscb.org/ismbeccb2017) in 2017. I had the pleasure of presenting my poster at ISMB. Here is the poster that I presented. 
-
-<br><br>
-
-<a href="https://github.com/adbharadwaj/graphspace-bosc-2017/blob/master/2017-07-22-ismb-bosc-graphspace-poster.pdf">
-<img src="https://github.com/adbharadwaj/graphspace-bosc-2017/raw/master/2017-07-22-ismb-bosc-graphspace-poster.jpg"/>
-</a>
-
-
-**Project Website**: [http://graphspace.org](http://graphspace.org)
+**Website**: [http://graphspace.org](http://graphspace.org)
 
 **Source Code**: [https://github.com/Murali-group/GraphSpace](https://github.com/Murali-group/GraphSpace)
 
@@ -46,4 +38,3 @@ them private) containing a total of over 1.4 million nodes and 3.8 million edges
 
 
 Please contact me at [adb@vt.edu](adb@vt.edu) if you have any doubts.
-

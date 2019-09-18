@@ -1,4 +1,8 @@
-I"˜<h1 id="publications">Publications</h1>
+I"º<!-- ---
+layout: default
+--- -->
+
+<h3 id="publications">Publications</h3>
 
 <ol>
   <li>
@@ -33,13 +37,13 @@ Bijaya Adhikari, Yao Zhang, Sorour E. Amiri, <strong>Aditya Bharadwaj</strong>, 
   </li>
 </ol>
 
-<h1 id="posters">Posters</h1>
+<h3 id="posters">Posters</h3>
 
 <ol>
   <li><a href="https://f1000research.com/posters/6-1390">GRAPHSPACE: Stimulating interdisciplinary collaborations in network biology</a> at 18th Annual Bioinformatics Open Source Conference (BOSC 2017) and Joint 25th Annual International Conference on Intelligent Systems for Molecular Biology (ISMB) and 16th European Conference on Computational Biology (ECCB) 2017.</li>
 </ol>
 
-<h1 id="conference-talks">Conference Talks</h1>
+<h3 id="conference-talks">Conference Talks</h3>
 
 <ol>
   <li><a href="https://f1000research.com/slides/6-1391">GRAPHSPACE: Stimulating interdisciplinary collaborations in network biology</a> at 18th Annual Bioinformatics Open Source Conference (BOSC 2017) and Joint 25th Annual International Conference on Intelligent Systems for Molecular Biology (ISMB) and 16th European Conference on Computational Biology (ECCB) 2017.</li>
