@@ -9,7 +9,9 @@ type: news
 
 I had the pleasure of presenting a talk on Critter at CHI 2019. Here are slides from the presentation.
 
-<script async class="speakerdeck-embed" data-id="50960be50378461b87ff7266cecc05d1" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<br><br>
+
+<script async class="speakerdeck-embed" data-id="50960be50378461b87ff7266cecc05d1" data-ratio="1.7777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 <br><br>
 
