@@ -15,5 +15,7 @@ I had the pleasure of presenting a talk on Critter at CHI 2019. Here are slides 
 
 <br><br>
 
+Here is the link to the [paper](http://crowd.cs.vt.edu/wordpress/wp-content/uploads/2019/01/Bharadwaj_Critter_CHI_2019.pdf).
+
 Please contact me at [adb@vt.edu](adb@vt.edu) if you have any questions.
 
