@@ -11,5 +11,7 @@ I had the pleasure of presenting a talk on Critter at CHI 2019. Here are slides 
 
 <script async class="speakerdeck-embed" data-id="50960be50378461b87ff7266cecc05d1" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
+<br><br>
+
 Please contact me at [adb@vt.edu](adb@vt.edu) if you have any questions.
 
